@@ -16,7 +16,7 @@ try: # Code that may raise an exception
     a = [1, 2, 3]
     # print(a[5])  # This will raise IndexError
 
-    # x = abc  # This will raise NameError
+    x = 10  # This will raise NameError
     print(x)
 
 except IndexError:  # Handling specific exception
@@ -29,3 +29,22 @@ except FileNotFoundError:  # Handling specific exception
     print("Error: The file was not found. Please check the file path.")
 except Exception as e:  # Handling all exceptions
     print("An error occurred:", e)
+
+else:  # Code to run if no exception occurs
+    print("All operations were successful.")
+
+finally:  # Code that will run no matter what
+    print("Execution completed.")
+
+#------------------------------------------------------------------
+print("-----------------------------------------")
+
+# Raising Exceptions Manually
+def check_file(filename):
+    if not filename.endswith('.txt'):
+        print("Only .txt files are allowed.")
+    else:
+        print("File is valid.")
+
+check_file("document.pdf")
+check_file("notes.txt")
