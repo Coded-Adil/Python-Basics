@@ -42,9 +42,16 @@ print("-----------------------------------------")
 # Raising Exceptions Manually
 def check_file(filename):
     if not filename.endswith('.txt'):
-        print("Only .txt files are allowed.")
+        raise ValueError("Only .txt files are allowed.")
     else:
         print("File is valid.")
 
-check_file("document.pdf")
+# check_file("document.pdf")
 check_file("notes.txt")
+
+# Custom Exception Handling
+try:
+    check_file("image.png")
+
+except Exception as e:
+    print("Custom Error:", e)
