@@ -41,6 +41,8 @@ print(sq_nums)  # Output: [1, 4, 9, 16]
 # Filter
 even_nums = list(filter(lambda x: x % 2 == 0, nums))
 print(even_nums)  # Output: [2, 4]
+odd_nums = list(filter(lambda x: x % 2 != 0, nums))
+print(odd_nums)
 
 # Reduce
 sum_nums = functools.reduce(lambda x, y: x + y, nums)
