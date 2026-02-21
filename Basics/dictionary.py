@@ -38,3 +38,8 @@ b = {"ahan": 23, "farhan": 24, "zahan": 25, 1: [1, 2, 3], 2: {3, 4, 5}}
 # print(type(b))   # class dict
 for i in b.values():
     print(i)
+
+print("-----------------------------------------")
+
+for i in b:
+    print(b.keys(), b.values())
