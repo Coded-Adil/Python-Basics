@@ -43,3 +43,8 @@ print("-----------------------------------------")
 
 for i in b:
     print(b.keys(), b.values())
+
+print("----------------------------------------")
+
+for k, v in b.items():
+    print(f"key name: {k}, value: {v}")
