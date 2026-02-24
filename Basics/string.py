@@ -1,3 +1,4 @@
+
 # dynamically typed string variable
 
 my_string = "This is a string variable"
