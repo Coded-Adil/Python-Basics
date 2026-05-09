@@ -1,10 +1,10 @@
-# 🐍 Python Basics
+# Python Basics
 
 A beginner-friendly collection of Python programs, examples, and exercises designed to build a strong foundation in Python programming.
 
 ---
 
-## 📌 Overview
+## Overview
 
 This repository contains fundamental Python concepts with practical examples.  
 It is ideal for:
@@ -17,7 +17,7 @@ The goal is to provide **simple, readable, and practical code snippets** to unde
 
 ---
 
-## 🚀 Topics Covered
+## Topics Covered
 
 - 🟢 Variables & Data Types  
 - 🔵 Conditional Statements (`if-else`)  
